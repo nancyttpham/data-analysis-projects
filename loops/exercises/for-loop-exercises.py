@@ -5,4 +5,18 @@
     # d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers).
 
 
+for num in range(21):
+    print(num)
 
+
+for number in range(3,30):
+    if number%2 != 0:
+        print(number)
+
+for number in range(12, -15,-1):
+    if number%2 == 0:
+        print(number)
+
+for number in range(50, 20, -1):
+    if number%3 == 0:
+        print(number)
